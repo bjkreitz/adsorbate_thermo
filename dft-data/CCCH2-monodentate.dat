@@ -1,0 +1,7 @@
+name = 'CCCH2_monodentate_ads'
+DFT_binding_energy = [-3.773, 'eV']
+heat_of_formation_0K = [150.24, 'kJ/mol']
+composition = {'H':2, 'C':3, 'N':0, 'O':0, 'Pt':1}
+sites = 1
+adsorbate_mass = [38.05, 'amu']
+frequencies = [12, 99.7, 140.7, 300.4, 345.0, 386.0, 502.2, 602.7, 825.3, 961.9, 1132.7, 1405.2, 1834.9, 3065.9, 3136.9,'cm-1']

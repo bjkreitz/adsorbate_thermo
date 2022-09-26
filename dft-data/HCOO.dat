@@ -1,0 +1,7 @@
+name = 'HCOO_ads'
+DFT_binding_energy = [-2.606, 'eV']
+heat_of_formation_0K = [-403.79, 'kJ/mol']
+composition = {'H':1, 'C':1, 'N':0, 'O':2, 'Pt':1}
+sites = 1
+adsorbate_mass = [45.017, 'amu']
+frequencies = [121.7,162.9,172.0,291.7,311.6,366.9,750.9,988.8,1282.9,1335.7,1487.4,2994.0, 'cm-1']

@@ -1,0 +1,7 @@
+name = 'H2CO2_ads'
+DFT_binding_energy = [-3.554, 'eV']
+heat_of_formation_0K = [-262.99, 'kJ/mol']
+composition = {'H':2, 'C':1, 'N':0, 'O':2, 'Pt':1}
+sites = 1
+adsorbate_mass = [46.03, 'amu']
+frequencies = [12,126.2,151.7,268.9,296.2,394.3,606.3,872.1,976.2,1027.9,1162.6,1321.9,1427.7,2897.6,2932.3,'cm-1']

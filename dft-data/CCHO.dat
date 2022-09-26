@@ -1,0 +1,7 @@
+name = 'CCHO_ads'
+DFT_binding_energy = [-5.378, 'eV']
+heat_of_formation_0K = [-146.25, 'kJ/mol']
+composition = {'H':0, 'C':2, 'N':0, 'O':1, 'Pt':1}
+sites = 1
+adsorbate_mass = [41.03, 'amu']
+frequencies = [20.1, 76.7, 171.5, 275.9, 432.8, 454.2, 685.8, 931.3, 998.8, 1344.7, 1656.8, 2890.6,'cm-1']

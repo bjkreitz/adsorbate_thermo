@@ -1,0 +1,7 @@
+name = 'CCCH2_bidentate_ads'
+DFT_binding_energy = [-3.582, 'eV']
+heat_of_formation_0K = [168.67, 'kJ/mol']
+composition = {'H':2, 'C':3, 'N':0, 'O':0, 'Pt':1}
+sites = 2
+adsorbate_mass = [38.05, 'amu']
+frequencies = [188.3, 259.8, 305.1,372.9, 422.3, 489.9, 558.1,731.2, 956.8, 961.4, 1037.1, 1415.8, 1462.6, 3060.4, 3149.0,'cm-1']

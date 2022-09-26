@@ -1,0 +1,7 @@
+name = 'CO2_ads'
+DFT_binding_energy = [-0.062, 'eV']
+heat_of_formation_0K = [-433.22, 'kJ/mol']
+composition = {'H':0, 'C':1, 'N':0, 'O':2, 'Pt':1}
+sites = 1
+adsorbate_mass = [44.01, 'amu']
+frequencies = [10.8, 12, 137.7, 142.7, 147.6, 685.1, 690.4, 1314.3, 2350.7 , 'cm-1']

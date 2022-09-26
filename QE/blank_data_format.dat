@@ -1,0 +1,9 @@
+name = 'CO2_ads'
+DFT_energy = [, 'eV']
+ZPE_energy = [, 'eV']
+gas_DFT_energy = [, 'eV']
+gas_ZPE_energy = [, 'eV']
+composition = {'H':0, 'C':1, 'N':0, 'O':0, 'Pt':1}
+sites = 1
+BEE = []
+gas_BEE = []
