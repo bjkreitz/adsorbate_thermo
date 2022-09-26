@@ -1,706 +1,606 @@
 
- CCCH2_bidentate_ads CCCH2_monodentate_ads CCH2CH3_ads CCH2OH_ads CCHCH2_ads
- CCHO_ads CCO_ads CH2CCH3_ads CH2CH2CH3_ads CH2CHCH2_ads CH2CO_ads CH3CH2CH3_ads CH3CH2CO_ads CH3CH2OH_ads CH3CHCH2_ads CH3CHCH3_ads CH3CHO_ads CH3CHOH_ads CH3CO_ads CH3COH_ads CHCCH2_ads CHCH2CH3_ads CHCHCH2_ads CHCHCH3_ads CHCO_ads CO2_ads COOH_ads CH3CCH3_ads HCOOH_ads H2CO2CH3_ads H2CO2_ads OCH2CH3_ads CO3_ads HCO3_ads HCO2CH3_ads HCOO_ads
+ C_ads CC_ads CCH2_ads CCH3_ads CH_ads
+ CH2_ads CH2_ads CH3_ads CH4_ads CHCH_ads CHCH_vdW_ads CO_ads COH_ads H_ads H2C-CH_ads H2C-CH3_ads H2C-O_ads H2CO-h_ads H2C-OH_ads H2O_ads H3C-OH_ads HC-C_ads HC-CH3_ads HCO_ads HCO-h_ads HCOH_ads HO-OH_ads O_ads O-CH3_ads OH_ads OOH_ads
 
 
 
-species(name = "CCCH2_bidentate_ads",
-	atoms = " H:2 C:3 Pt:1",
-	size = 2,
+species(name = "C_ads",
+	atoms = " C:1 Pt:1",
+	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-2.27103445E+00, 4.27539019E-02,
- 		 -5.61652527E-05, 3.84419292E-08, -1.06004164E-11,
- 		 1.89555726E+04, 6.93062665E+00]), 
-		NASA( [1000.0, 2000.0], [1.21290474E+01, -7.57219827E-03,
- 		 1.36015955E-05, -7.32089312E-09, 1.32157610E-12,
- 		 1.55192319E+04, -6.48251627E+01]), 
+		NASA( [300.0, 1000.0], [-1.73430697E+00, 1.89855471E-02,
+ 		 -3.23563661E-05, 2.59269890E-08, -7.99102104E-12,
+ 		 6.09216395E+03, 6.25445028E+00]), 
+		NASA( [1000.0, 2000.0], [2.82193241E+00, -6.61177416E-04,
+ 		 1.24180431E-06, -7.03993893E-10, 1.32276605E-13,
+ 		 5.19298289E+03, -1.55251271E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -3.582 eV.
+            DFT binding energy: -6.755 eV.
             """,
 	)
 
-species(name = "CCCH2_monodentate_ads",
-	atoms = " H:2 C:3 Pt:1",
+species(name = "CC_ads",
+	atoms = " C:2 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-3.82821995E-01, 3.18369145E-02,
- 		 -4.01391269E-05, 2.76197052E-08, -7.78850595E-12,
- 		 1.66976346E+04, 5.76357647E+00]), 
-		NASA( [1000.0, 2000.0], [1.11180258E+01, -7.40595551E-03,
- 		 1.32616442E-05, -7.10517630E-09, 1.27762668E-12,
- 		 1.38859587E+04, -5.18305539E+01]), 
+		NASA( [300.0, 1000.0], [2.22282794E-01, 1.96908600E-02,
+ 		 -3.07626817E-05, 2.35937440E-08, -7.12438442E-12,
+ 		 2.37396303E+04, -3.03635113E+00]), 
+		NASA( [1000.0, 2000.0], [5.60759796E+00, -1.41921856E-03,
+ 		 2.63409811E-06, -1.47830656E-09, 2.75649745E-13,
+ 		 2.25651003E+04, -2.93177601E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -3.773 eV.
-            The two lowest frequencies, 12.0 and 99.7 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -5.913 eV.
             """,
 	)
 
-species(name = "CCH2CH3_ads",
-	atoms = " H:5 C:3 Pt:1",
+species(name = "CCH2_ads",
+	atoms = " H:2 C:2 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-4.07836856E-01, 3.38179738E-02,
- 		 -1.82365043E-05, -2.17799281E-10, 2.78237849E-12,
- 		 -1.16620218E+04, 3.03397087E+00]), 
-		NASA( [1000.0, 2000.0], [1.76953073E+01, -1.61874071E-02,
- 		 2.89121580E-05, -1.54560949E-08, 2.77424853E-12,
- 		 -1.66674964E+04, -9.05056048E+01]), 
+		NASA( [300.0, 1000.0], [-2.04785706E+00, 3.38148654E-02,
+ 		 -4.45775300E-05, 3.08318279E-08, -8.56901355E-12,
+ 		 -2.70964753E+03, 6.64469050E+00]), 
+		NASA( [1000.0, 2000.0], [9.42830381E+00, -6.48123487E-03,
+ 		 1.15879773E-05, -6.19494276E-09, 1.11218928E-12,
+ 		 -5.43914191E+03, -5.04945175E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -6.099 eV.
+            DFT binding energy: -3.978 eV.
             """,
 	)
 
-species(name = "CCH2OH_ads",
-	atoms = " H:3 C:2 O:1 Pt:1",
+species(name = "CCH3_ads",
+	atoms = " H:3 C:2 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-4.14367704E-01, 2.97866357E-02,
- 		 -2.42611023E-05, 8.22145796E-09, -2.81785012E-13,
- 		 -2.56994211E+04, 7.22298177E+00]), 
-		NASA( [1000.0, 2000.0], [1.30250135E+01, -9.79365970E-03,
- 		 1.74609646E-05, -9.31041023E-09, 1.66893053E-12,
- 		 -2.92631863E+04, -6.15374354E+01]), 
+		NASA( [300.0, 1000.0], [1.57603104E-01, 2.34293413E-02,
+ 		 -1.86683661E-05, 7.29234370E-09, -8.79008671E-13,
+ 		 -1.16229125E+04, -1.73582278E+00]), 
+		NASA( [1000.0, 2000.0], [1.13050336E+01, -9.40622931E-03,
+ 		 1.67935678E-05, -8.96901500E-09, 1.60855621E-12,
+ 		 -1.46053757E+04, -5.88363790E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -5.950 eV.
-            The two lowest frequencies, 12.0 and 51.0 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -5.592 eV.
             """,
 	)
 
-species(name = "CCHCH2_ads",
-	atoms = " H:3 C:3 Pt:1",
+species(name = "CH_ads",
+	atoms = " H:1 C:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-1.25479748E+00, 3.76847805E-02,
- 		 -3.93538492E-05, 2.16708327E-08, -4.77858031E-12,
- 		 1.78329899E+03, 4.10178814E+00]), 
-		NASA( [1000.0, 2000.0], [1.39365291E+01, -1.03605311E-02,
- 		 1.85207957E-05, -9.90840187E-09, 1.77999449E-12,
- 		 -2.09382640E+03, -7.28414214E+01]), 
+		NASA( [300.0, 1000.0], [-3.00950779E+00, 3.02193341E-02,
+ 		 -4.99546294E-05, 3.99478464E-08, -1.23021593E-11,
+ 		 -3.34762339E+03, 1.12314464E+01]), 
+		NASA( [1000.0, 2000.0], [4.88482023E+00, -2.70846119E-03,
+ 		 4.84648118E-06, -2.58513645E-09, 4.63180319E-13,
+ 		 -4.96491280E+03, -2.67870735E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -5.430 eV.
+            DFT binding energy: -6.242 eV.
             """,
 	)
 
-species(name = "CCHO_ads",
-	atoms = " C:2 O:1 Pt:1",
+species(name = "CH2_ads",
+	atoms = " H:2 C:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-1.54881082E-01, 2.46650429E-02,
- 		 -2.78829260E-05, 1.67435167E-08, -4.17254772E-12,
- 		 -1.83398952E+04, 5.36584770E+00]), 
-		NASA( [1000.0, 2000.0], [9.17648918E+00, -5.39009389E-03,
- 		 9.76741922E-06, -5.32718920E-09, 9.71579511E-13,
- 		 -2.07049611E+04, -4.17921402E+01]), 
+		NASA( [300.0, 1000.0], [-2.26602367E+00, 2.92517765E-02,
+ 		 -4.32728797E-05, 3.30655723E-08, -9.93242641E-12,
+ 		 -3.80093789E+02, 8.22751288E+00]), 
+		NASA( [1000.0, 2000.0], [6.82572636E+00, -5.17192506E-03,
+ 		 9.19551938E-06, -4.87101486E-09, 8.67713091E-13,
+ 		 -2.42534055E+03, -3.64410753E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -5.378 eV.
-            The two lowest frequencies, 20.1 and 76.7 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -3.643 eV.
             """,
 	)
 
-species(name = "CCO_ads",
-	atoms = " C:2 O:1 Pt:1",
+species(name = "CH2_ads",
+	atoms = " H:4 C:2 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [4.82296413E-01, 2.58715605E-02,
- 		 -3.93603870E-05, 3.04629746E-08, -9.36533143E-12,
- 		 -1.49166292E+04, -3.57376016E+00]), 
-		NASA( [1000.0, 2000.0], [8.07082552E+00, -3.00852537E-03,
- 		 5.51540301E-06, -3.04805993E-09, 5.61469745E-13,
- 		 -1.66313137E+04, -4.08626268E+01]), 
+		NASA( [300.0, 1000.0], [-2.39737604E+00, 3.73194353E-02,
+ 		 -3.73140702E-05, 1.98435109E-08, -4.15883994E-12,
+ 		 -8.40400457E+03, 9.52383811E+00]), 
+		NASA( [1000.0, 2000.0], [1.32599664E+01, -1.17874099E-02,
+ 		 2.10016909E-05, -1.11823349E-08, 2.00074750E-12,
+ 		 -1.24219675E+04, -6.98822356E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -5.276 eV.
+            DFT binding energy: -0.950 eV.
             """,
 	)
 
-species(name = "CH2CCH3_ads",
-	atoms = " H:5 C:3 Pt:1",
+species(name = "CH3_ads",
+	atoms = " H:3 C:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-2.72979307E+00, 4.77487399E-02,
- 		 -4.57827059E-05, 2.34519012E-08, -4.78486695E-12,
- 		 -5.63305808E+03, 9.23470862E+00]), 
-		NASA( [1000.0, 2000.0], [1.78566615E+01, -1.57309964E-02,
- 		 2.81077199E-05, -1.50276522E-08, 2.69754236E-12,
- 		 -1.09863800E+04, -9.54810428E+01]), 
+		NASA( [300.0, 1000.0], [5.80099877E-01, 1.66399977E-02,
+ 		 -1.39164870E-05, 6.70631582E-09, -1.31079175E-12,
+ 		 -6.40933320E+03, -7.57148375E-01]), 
+		NASA( [1000.0, 2000.0], [8.67869881E+00, -7.84238420E-03,
+ 		 1.38956076E-05, -7.33600190E-09, 1.30321431E-12,
+ 		 -8.54966118E+03, -4.20966823E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -3.195 eV.
+            DFT binding energy: -1.771 eV.
             """,
 	)
 
-species(name = "CH2CH2CH3_ads",
-	atoms = " H:7 C:3 Pt:1",
+species(name = "CH4_ads",
+	atoms = " H:4 C:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-5.78976324E-01, 3.71915827E-02,
- 		 -1.22898025E-05, -8.77177071E-09, 6.04039735E-12,
- 		 -1.18017536E+04, 1.47277870E+00]), 
-		NASA( [1000.0, 2000.0], [2.15363954E+01, -2.15932574E-02,
- 		 3.85299240E-05, -2.05691913E-08, 3.68755974E-12,
- 		 -1.80446915E+04, -1.13399138E+02]), 
+		NASA( [300.0, 1000.0], [5.26247002E+00, -7.42703413E-03,
+ 		 3.36472336E-05, -3.29401150E-08, 1.10259250E-11,
+ 		 -1.16450855E+04, -1.00881420E+01]), 
+		NASA( [1000.0, 2000.0], [9.54981008E+00, -1.03719404E-02,
+ 		 1.83183536E-05, -9.63332916E-09, 1.70558531E-12,
+ 		 -1.33129742E+04, -3.45335353E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -2.333 eV.
+            DFT binding energy: -0.122 eV.
+            The two lowest frequencies, 3.2 and 8.1 cm-1, where replaced by the 2D gas model.
             """,
 	)
 
-species(name = "CH2CHCH2_ads",
-	atoms = " H:5 C:3 Pt:1",
+species(name = "CHCH_ads",
+	atoms = " H:2 C:2 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-3.02780964E+00, 4.86827920E-02,
- 		 -4.64697726E-05, 2.28751861E-08, -4.23877600E-12,
- 		 -6.44241823E+03, 1.15070732E+01]), 
-		NASA( [1000.0, 2000.0], [1.77787700E+01, -1.55322169E-02,
- 		 2.76898539E-05, -1.47575432E-08, 2.64275606E-12,
- 		 -1.18294930E+04, -9.42606313E+01]), 
+		NASA( [300.0, 1000.0], [-1.68898057E+00, 3.52831263E-02,
+ 		 -4.97578493E-05, 3.62176199E-08, -1.04588699E-11,
+ 		 -2.13485679E+02, 6.75238906E+00]), 
+		NASA( [1000.0, 2000.0], [9.57180447E+00, -5.98074762E-03,
+ 		 1.06737584E-05, -5.68837233E-09, 1.01860349E-12,
+ 		 -2.80519962E+03, -4.88869924E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -2.286 eV.
+            DFT binding energy: -2.012 eV.
             """,
 	)
 
-species(name = "CH2CO_ads",
-	atoms = " H:2 C:2 O:1 Pt:1",
+species(name = "CHCH_vdW_ads",
+	atoms = " H:2 C:2 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [3.89187265E-01, 2.92112653E-02,
- 		 -3.68630528E-05, 2.57772068E-08, -7.38835035E-12,
- 		 -1.86840573E+04, 3.26236781E+00]), 
-		NASA( [1000.0, 2000.0], [1.10991553E+01, -7.40804127E-03,
- 		 1.32480136E-05, -7.08463685E-09, 1.27176536E-12,
- 		 -2.13046231E+04, -5.03667784E+01]), 
+		NASA( [300.0, 1000.0], [1.11180282E+00, 2.49061659E-02,
+ 		 -3.96404401E-05, 3.23914869E-08, -1.01975824E-11,
+ 		 2.07842146E+04, 4.05867869E+00]), 
+		NASA( [1000.0, 2000.0], [8.55328593E+00, -4.89148968E-03,
+ 		 8.55317549E-06, -4.41304892E-09, 7.69510301E-13,
+ 		 1.91847362E+04, -3.21180123E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -0.619 eV.
-            The two lowest frequencies, 12.0 and 12.0 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -0.200 eV.
+            The two lowest frequencies, 8.5 and 8.7 cm-1, where replaced by the 2D gas model.
             """,
 	)
 
-species(name = "CH3CH2CH3_ads",
-	atoms = " H:8 C:3 Pt:1",
+species(name = "CO_ads",
+	atoms = " C:1 O:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [2.15856144E+00, 2.48539972E-02,
- 		 1.53525973E-05, -3.25302366E-08, 1.35067652E-11,
- 		 -1.70355920E+04, -8.74139325E+00]), 
-		NASA( [1000.0, 2000.0], [2.32832355E+01, -2.45407014E-02,
- 		 4.37313468E-05, -2.33036993E-08, 4.17150293E-12,
- 		 -2.33620818E+04, -1.20201845E+02]), 
+		NASA( [300.0, 1000.0], [2.70112272E+00, 8.76650166E-03,
+ 		 -1.29512418E-05, 1.04194594E-08, -3.39700490E-12,
+ 		 -3.51866446E+04, -1.28730512E+01]), 
+		NASA( [1000.0, 2000.0], [5.52820880E+00, -1.52631254E-03,
+ 		 2.79791895E-06, -1.54550129E-09, 2.84523223E-13,
+ 		 -3.58621092E+04, -2.69156979E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -0.241 eV.
+            DFT binding energy: -1.482 eV.
             """,
 	)
 
-species(name = "CH3CH2CO_ads",
-	atoms = " H:5 C:3 O:1 Pt:1",
+species(name = "COH_ads",
+	atoms = " H:1 C:1 O:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [3.17980384E-01, 3.37808273E-02,
- 		 -1.47996341E-05, -3.84914220E-09, 3.93637206E-12,
- 		 -3.25474755E+04, 3.57589905E+00]), 
-		NASA( [1000.0, 2000.0], [1.93377956E+01, -1.74343755E-02,
- 		 3.11976589E-05, -1.67226574E-08, 3.00798190E-12,
- 		 -3.78880634E+04, -9.50685040E+01]), 
+		NASA( [300.0, 1000.0], [8.63437744E-01, 2.14806054E-02,
+ 		 -3.00009525E-05, 2.11729011E-08, -5.90923491E-12,
+ 		 -3.11804707E+04, -5.10749731E+00]), 
+		NASA( [1000.0, 2000.0], [7.59479056E+00, -3.06847382E-03,
+ 		 5.43592647E-06, -2.86463560E-09, 5.09149225E-13,
+ 		 -3.27238695E+04, -3.83674793E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -2.348 eV.
-            The two lowest frequencies, 12.0 and 63.5 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -4.262 eV.
             """,
 	)
 
-species(name = "CH3CH2OH_ads",
-	atoms = " H:6 C:2 O:1 Pt:1",
+species(name = "H_ads",
+	atoms = " H:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [2.44141648E+00, 2.01418511E-02,
- 		 1.00444529E-05, -2.46324618E-08, 1.06436561E-11,
- 		 -3.06365926E+04, -2.15863076E+00]), 
-		NASA( [1000.0, 2000.0], [1.85992753E+01, -1.79442295E-02,
- 		 3.18809476E-05, -1.69157879E-08, 3.01870908E-12,
- 		 -3.54344219E+04, -8.72713204E+01]), 
+		NASA( [300.0, 1000.0], [-1.96702988E+00, 1.67920714E-02,
+ 		 -2.50314139E-05, 1.80485455E-08, -5.11491197E-12,
+ 		 -3.15515980E+03, 7.68211257E+00]), 
+		NASA( [1000.0, 2000.0], [2.71968546E+00, -1.07696656E-03,
+ 		 2.00193294E-06, -1.12865983E-09, 2.11269165E-13,
+ 		 -4.18940665E+03, -1.52793490E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -0.023 eV.
-            The two lowest frequencies, 12.0 and 12.0 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -2.479 eV.
             """,
 	)
 
-species(name = "CH3CHCH2_ads",
-	atoms = " H:6 C:3 Pt:1",
+species(name = "H2C-CH_ads",
+	atoms = " H:3 C:2 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-1.01283183E+00, 3.96054673E-02,
- 		 -2.41796124E-05, 3.23567437E-09, 1.99314176E-12,
- 		 -7.36273218E+03, 3.34183380E+00]), 
-		NASA( [1000.0, 2000.0], [1.95941002E+01, -1.84981215E-02,
- 		 3.29579796E-05, -1.75535179E-08, 3.14139880E-12,
- 		 -1.29960872E+04, -1.02828351E+02]), 
+		NASA( [300.0, 1000.0], [-3.71741524E+00, 4.45639232E-02,
+ 		 -5.86622119E-05, 4.05880256E-08, -1.12584803E-11,
+ 		 -3.35777135E+03, 1.37056124E+01]), 
+		NASA( [1000.0, 2000.0], [1.14826601E+01, -8.87645080E-03,
+ 		 1.58590687E-05, -8.47088253E-09, 1.51944591E-12,
+ 		 -6.96894474E+03, -6.19545665E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -0.713 eV.
+            DFT binding energy: -2.772 eV.
             """,
 	)
 
-species(name = "CH3CHCH3_ads",
-	atoms = " H:7 C:3 Pt:1",
+species(name = "H2C-CH3_ads",
+	atoms = " H:5 C:2 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-1.40036274E-01, 3.58616425E-02,
- 		 -1.11021659E-05, -8.97397908E-09, 5.91635768E-12,
- 		 -1.24208088E+04, -9.77178851E-01]), 
-		NASA( [1000.0, 2000.0], [2.15065318E+01, -2.15386821E-02,
- 		 3.84133973E-05, -2.04904694E-08, 3.67104131E-12,
- 		 -1.85442165E+04, -1.13463671E+02]), 
+		NASA( [300.0, 1000.0], [-3.10704253E-01, 2.31670005E-02,
+ 		 -5.71397937E-06, -7.48121886E-09, 4.46648274E-12,
+ 		 -1.05517952E+04, 6.88469603E+00]), 
+		NASA( [1000.0, 2000.0], [1.40915359E+01, -1.47622962E-02,
+ 		 2.62861461E-05, -1.39894810E-08, 2.50167599E-12,
+ 		 -1.46360686E+04, -6.80125978E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -2.157 eV.
+            DFT binding energy: -1.750 eV.
+            The two lowest frequencies, 18.6 and 76.6 cm-1, where replaced by the 2D gas model.
             """,
 	)
 
-species(name = "CH3CHO_ads",
-	atoms = " H:4 C:2 O:1 Pt:1",
+species(name = "H2C-O_ads",
+	atoms = " H:2 C:1 O:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [2.76865237E+00, 1.54209040E-02,
- 		 5.76787175E-06, -1.58270365E-08, 6.75180571E-12,
- 		 -2.70093406E+04, -5.05547920E+00]), 
-		NASA( [1000.0, 2000.0], [1.48477497E+01, -1.33581956E-02,
- 		 2.38689301E-05, -1.27693401E-08, 2.29305318E-12,
- 		 -3.06052479E+04, -6.86709011E+01]), 
+		NASA( [300.0, 1000.0], [4.87258154E+00, -3.80708439E-03,
+ 		 2.29126729E-05, -2.34870004E-08, 7.95457450E-12,
+ 		 -2.10853959E+04, -1.09579807E+01]), 
+		NASA( [1000.0, 2000.0], [8.42973399E+00, -6.84404724E-03,
+ 		 1.22430399E-05, -6.56317791E-09, 1.18019535E-12,
+ 		 -2.24436024E+04, -3.11058193E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -0.259 eV.
-            The two lowest frequencies, 30.5 and 72.0 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -0.184 eV.
+            The two lowest frequencies, 14.8 and 17.3 cm-1, where replaced by the 2D gas model.
             """,
 	)
 
-species(name = "CH3CHOH_ads",
-	atoms = " H:5 C:2 O:1 Pt:1",
+species(name = "H2CO-h_ads",
+	atoms = " H:2 C:1 O:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-9.38075624E-02, 3.25418587E-02,
- 		 -1.95081006E-05, 1.90337747E-09, 2.01784423E-12,
- 		 -3.29591774E+04, 5.48133948E+00]), 
-		NASA( [1000.0, 2000.0], [1.68236097E+01, -1.50325950E-02,
- 		 2.67326715E-05, -1.41983594E-08, 2.53584549E-12,
- 		 -3.75811245E+04, -8.16882260E+01]), 
+		NASA( [300.0, 1000.0], [1.02400610E-01, 2.37197512E-02,
+ 		 -2.57930815E-05, 1.52033151E-08, -3.68397327E-12,
+ 		 -2.15446113E+04, -4.98129327E-01]), 
+		NASA( [1000.0, 2000.0], [9.52719632E+00, -6.50602819E-03,
+ 		 1.16581384E-05, -6.25773731E-09, 1.12684291E-12,
+ 		 -2.39371574E+04, -4.81511621E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -2.332 eV.
-            The two lowest frequencies, 12.0 and 96.1 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -0.235 eV.
             """,
 	)
 
-species(name = "CH3CO_ads",
-	atoms = " H:3 C:2 O:1 Pt:1",
+species(name = "H2C-OH_ads",
+	atoms = " H:3 C:1 O:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [1.23038408E+00, 2.13641887E-02,
- 		 -1.09879577E-05, -4.08548112E-10, 1.72792683E-12,
- 		 -3.23553338E+04, 4.16359472E-01]), 
-		NASA( [1000.0, 2000.0], [1.28961233E+01, -1.06029491E-02,
- 		 1.89557851E-05, -1.01458960E-08, 1.82293048E-12,
- 		 -3.56034154E+04, -5.99504141E+01]), 
+		NASA( [300.0, 1000.0], [-2.45993907E-01, 2.28904724E-02,
+ 		 -1.87079391E-05, 6.93442251E-09, -5.29472299E-13,
+ 		 -2.93903078E+04, 6.34619626E+00]), 
+		NASA( [1000.0, 2000.0], [1.03204689E+01, -8.54856931E-03,
+ 		 1.51485033E-05, -8.00238783E-09, 1.42347453E-12,
+ 		 -3.21791173E+04, -4.76428226E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -2.551 eV.
-            The two lowest frequencies, 23.8 and 88.9 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -1.887 eV.
+            The two lowest frequencies, 44.2 and 70.8 cm-1, where replaced by the 2D gas model.
             """,
 	)
 
-species(name = "CH3COH_ads",
-	atoms = " H:4 C:2 O:1 Pt:1",
+species(name = "H2O_ads",
+	atoms = " H:2 O:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-2.76577611E-01, 3.17759863E-02,
- 		 -2.80855737E-05, 1.30653955E-08, -2.28759373E-12,
- 		 -3.19993590E+04, 6.43691396E+00]), 
-		NASA( [1000.0, 2000.0], [1.41585505E+01, -1.19339891E-02,
- 		 2.12464819E-05, -1.12990757E-08, 2.01966920E-12,
- 		 -3.57938527E+04, -6.71887961E+01]), 
+		NASA( [300.0, 1000.0], [2.53777266E+00, 9.45372010E-03,
+ 		 -1.41325664E-05, 1.16730945E-08, -3.67657640E-12,
+ 		 -3.26111113E+04, -5.36157344E+00]), 
+		NASA( [1000.0, 2000.0], [5.84789466E+00, -3.31526816E-03,
+ 		 5.62018785E-06, -2.75864893E-09, 4.61279066E-13,
+ 		 -3.33406258E+04, -2.15583577E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -2.952 eV.
-            The two lowest frequencies, 12.0 and 58.0 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -0.189 eV.
+            The two lowest frequencies, 49.5 and 68.6 cm-1, where replaced by the 2D gas model.
             """,
 	)
 
-species(name = "CHCCH2_ads",
-	atoms = " H:3 C:3 Pt:1",
+species(name = "H3C-OH_ads",
+	atoms = " H:4 C:1 O:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-1.47420628E+00, 4.21450105E-02,
- 		 -5.01975896E-05, 3.19228373E-08, -8.24990076E-12,
- 		 1.30962490E+04, 6.36468207E+00]), 
-		NASA( [1000.0, 2000.0], [1.41133468E+01, -9.85220113E-03,
- 		 1.76096002E-05, -9.41497384E-09, 1.69037919E-12,
- 		 9.25130191E+03, -7.19225028E+01]), 
+		NASA( [300.0, 1000.0], [2.70506726E+00, 1.00913594E-02,
+ 		 1.00260680E-05, -1.80909603E-08, 7.44539499E-12,
+ 		 -3.09732998E+04, -4.47744742E+00]), 
+		NASA( [1000.0, 2000.0], [1.21539459E+01, -1.13173411E-02,
+ 		 2.00342036E-05, -1.05724068E-08, 1.87852776E-12,
+ 		 -3.38201383E+04, -5.44578237E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -2.423 eV.
+            DFT binding energy: -0.317 eV.
+            The two lowest frequencies, 16.5 and 57.9 cm-1, where replaced by the 2D gas model.
             """,
 	)
 
-species(name = "CHCH2CH3_ads",
-	atoms = " H:6 C:3 Pt:1",
+species(name = "HC-C_ads",
+	atoms = " H:1 C:2 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-1.60792265E+00, 3.65072698E-02,
- 		 -1.73028330E-05, -2.63268524E-09, 3.77289866E-12,
- 		 -4.77067370E+03, 1.17218751E+01]), 
-		NASA( [1000.0, 2000.0], [1.86868580E+01, -1.88618156E-02,
- 		 3.36944810E-05, -1.80170579E-08, 3.23426204E-12,
- 		 -1.04261958E+04, -9.33362913E+01]), 
+		NASA( [300.0, 1000.0], [5.41170551E-02, 2.52700921E-02,
+ 		 -3.75803933E-05, 2.82910883E-08, -8.39575978E-12,
+ 		 1.37638792E+04, -1.63766387E+00]), 
+		NASA( [1000.0, 2000.0], [7.62295055E+00, -3.43322498E-03,
+ 		 6.14771846E-06, -3.28932116E-09, 5.91021494E-13,
+ 		 1.20684131E+04, -3.88019444E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -3.650 eV.
-            The two lowest frequencies, 12.0 and 74.1 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -4.099 eV.
             """,
 	)
 
-species(name = "CHCHCH2_ads",
-	atoms = " H:4 C:3 Pt:1",
+species(name = "HC-CH3_ads",
+	atoms = " H:4 C:2 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-4.00241403E+00, 5.22189088E-02,
- 		 -5.89122044E-05, 3.51035783E-08, -8.41934161E-12,
- 		 1.55081701E+03, 1.50822089E+01]), 
-		NASA( [1000.0, 2000.0], [1.59486678E+01, -1.28837296E-02,
- 		 2.30283272E-05, -1.23167595E-08, 2.21202132E-12,
- 		 -3.43364421E+03, -8.54536705E+01]), 
+		NASA( [300.0, 1000.0], [-2.39195145E-01, 2.71965302E-02,
+ 		 -1.96479590E-05, 6.17925647E-09, -1.84661314E-13,
+ 		 -5.91991226E+03, 2.67225219E-01]), 
+		NASA( [1000.0, 2000.0], [1.32714698E+01, -1.19649775E-02,
+ 		 2.13410724E-05, -1.13827464E-08, 2.03915294E-12,
+ 		 -9.56709596E+03, -6.90961026E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -4.131 eV.
+            DFT binding energy: -3.579 eV.
             """,
 	)
 
-species(name = "CHCHCH3_ads",
-	atoms = " H:5 C:3 Pt:1",
+species(name = "HCO_ads",
+	atoms = " H:1 C:1 O:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-2.57393128E+00, 4.77399245E-02,
- 		 -4.59807447E-05, 2.35135768E-08, -4.74550260E-12,
- 		 -4.63825601E+03, 9.44154347E+00]), 
-		NASA( [1000.0, 2000.0], [1.79080385E+01, -1.55492702E-02,
- 		 2.77729619E-05, -1.48415413E-08, 2.66313378E-12,
- 		 -9.95314505E+03, -9.46976696E+01]), 
+		NASA( [300.0, 1000.0], [9.92770133E-01, 1.28482415E-02,
+ 		 -1.29707081E-05, 7.57670038E-09, -1.93881543E-12,
+ 		 -2.81690802E+04, 1.21580750E+00]), 
+		NASA( [1000.0, 2000.0], [6.49258337E+00, -4.18568509E-03,
+ 		 7.53808067E-06, -4.07441486E-09, 7.37624398E-13,
+ 		 -2.96107022E+04, -2.67814291E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -3.399 eV.
+            DFT binding energy: -2.209 eV.
+            The two lowest frequencies, 17.0 and 73.1 cm-1, where replaced by the 2D gas model.
             """,
 	)
 
-species(name = "CHCO_ads",
-	atoms = " H:1 C:2 O:1 Pt:1",
+species(name = "HCO-h_ads",
+	atoms = " H:1 C:1 O:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [-1.37761371E+00, 3.72565997E-02,
- 		 -5.30168625E-05, 3.85555128E-08, -1.11934698E-11,
- 		 -2.22997057E+04, 3.96229087E+00]), 
-		NASA( [1000.0, 2000.0], [1.01988354E+01, -5.11715345E-03,
- 		 9.26392052E-06, -5.03839208E-09, 9.16956171E-13,
- 		 -2.49731482E+04, -5.32679300E+01]), 
+		NASA( [300.0, 1000.0], [-7.63229192E-02, 2.34818104E-02,
+ 		 -3.17556441E-05, 2.22347561E-08, -6.25650920E-12,
+ 		 -2.46055227E+04, -1.42351290E+00]), 
+		NASA( [1000.0, 2000.0], [7.61171587E+00, -3.81051175E-03,
+ 		 6.86938717E-06, -3.71585312E-09, 6.73352174E-13,
+ 		 -2.64207307E+04, -3.96330591E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -3.460 eV.
+            DFT binding energy: -1.896 eV.
             """,
 	)
 
-species(name = "CO2_ads",
-	atoms = " C:1 O:2 Pt:1",
+species(name = "HCOH_ads",
+	atoms = " H:2 C:1 O:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [2.00959799E+00, 1.33597565E-02,
- 		 -1.62303912E-05, 1.10029585E-08, -3.14484723E-12,
- 		 -5.33687590E+04, -2.58903014E+00]), 
-		NASA( [1000.0, 2000.0], [6.98298591E+00, -3.09871776E-03,
- 		 5.62883251E-06, -3.07847525E-09, 5.62449215E-13,
- 		 -5.46204185E+04, -2.76481272E+01]), 
+		NASA( [300.0, 1000.0], [-4.36042840E-01, 2.00507504E-02,
+ 		 -1.77043182E-05, 7.49827343E-09, -9.93989613E-13,
+ 		 -2.63489933E+04, 7.32580630E+00]), 
+		NASA( [1000.0, 2000.0], [8.39677048E+00, -6.55664677E-03,
+ 		 1.17004267E-05, -6.24600357E-09, 1.12012631E-12,
+ 		 -2.86664436E+04, -3.77311851E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -0.062 eV.
-            The two lowest frequencies, 10.8 and 12.0 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -2.956 eV.
+            The two lowest frequencies, 46.4 and 91.5 cm-1, where replaced by the 2D gas model.
             """,
 	)
 
-species(name = "COOH_ads",
-	atoms = " H:1 C:1 O:2 Pt:1",
+species(name = "HO-OH_ads",
+	atoms = " H:2 O:2 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [3.59051461E-01, 2.50172545E-02,
- 		 -3.09587526E-05, 2.00287012E-08, -5.26520147E-12,
- 		 -5.41043156E+04, 3.53119100E+00]), 
-		NASA( [1000.0, 2000.0], [9.16265509E+00, -4.70147201E-03,
- 		 8.43556592E-06, -4.53366822E-09, 8.17972184E-13,
- 		 -5.62560379E+04, -4.05937182E+01]), 
+		NASA( [300.0, 1000.0], [2.83724199E+00, 1.40375175E-02,
+ 		 -1.46380418E-05, 8.15474904E-09, -1.74266851E-12,
+ 		 -2.50878542E+04, -5.57967497E+00]), 
+		NASA( [1000.0, 2000.0], [8.63866612E+00, -4.64978374E-03,
+ 		 8.11017779E-06, -4.17891893E-09, 7.28657000E-13,
+ 		 -2.65392157E+04, -3.48479104E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -2.571 eV.
-            The two lowest frequencies, 36.7 and 64.6 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -0.286 eV.
+            The two lowest frequencies, 10.6 and 50.4 cm-1, where replaced by the 2D gas model.
             """,
 	)
 
-species(name = "CH3CCH3_ads",
-	atoms = " H:6 C:3 Pt:1",
+species(name = "O_ads",
+	atoms = " O:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [4.03765347E-01, 3.43477499E-02,
- 		 -1.58933907E-05, -2.43971983E-09, 3.40954348E-12,
- 		 -7.00822274E+03, -2.81376113E+00]), 
-		NASA( [1000.0, 2000.0], [1.97785534E+01, -1.85076861E-02,
- 		 3.30425254E-05, -1.76515167E-08, 3.16607226E-12,
- 		 -1.24156214E+04, -1.03131111E+02]), 
+		NASA( [300.0, 1000.0], [1.79722382E-01, 1.25453156E-02,
+ 		 -2.29924588E-05, 1.94187177E-08, -6.22414099E-12,
+ 		 -1.73087132E+04, -2.22409728E+00]), 
+		NASA( [1000.0, 2000.0], [2.92050897E+00, -2.70455589E-04,
+ 		 5.15610634E-07, -2.93911213E-10, 5.54030466E-14,
+ 		 -1.78053889E+04, -1.50940536E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -3.420 eV.
+            DFT binding energy: -3.586 eV.
             """,
 	)
 
-species(name = "HCOOH_ads",
-	atoms = " H:2 C:1 O:2 Pt:1",
+species(name = "O-CH3_ads",
+	atoms = " H:3 C:1 O:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [2.35698005E+00, 1.65817950E-02,
- 		 -8.93246966E-06, -5.96590962E-10, 1.65711542E-12,
- 		 -5.05894219E+04, -5.39293969E-01]), 
-		NASA( [1000.0, 2000.0], [1.10477913E+01, -7.24274370E-03,
- 		 1.29091018E-05, -6.88021503E-09, 1.23289550E-12,
- 		 -5.29927376E+04, -4.54689420E+01]), 
+		NASA( [300.0, 1000.0], [1.96689612E+00, 9.93315669E-03,
+ 		 6.03954834E-06, -1.31499149E-08, 5.51615871E-12,
+ 		 -2.04844328E+04, -3.13734420E+00]), 
+		NASA( [1000.0, 2000.0], [1.02836116E+01, -9.41693156E-03,
+ 		 1.67874656E-05, -8.95165920E-09, 1.60335858E-12,
+ 		 -2.29757471E+04, -4.70322682E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -0.216 eV.
-            The two lowest frequencies, 12.0 and 12.0 cm-1, where replaced by the 2D gas model.
+            DFT binding energy: -1.373 eV.
+            The two lowest frequencies, 64.2 and 66.3 cm-1, where replaced by the 2D gas model.
             """,
 	)
 
-species(name = "H2CO2CH3_ads",
-	atoms = " H:5 C:2 O:2 Pt:1",
+species(name = "OH_ads",
+	atoms = " H:1 O:1 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [1.68079896E+00, 3.12126215E-02,
- 		 -8.07893399E-06, -1.08377033E-08, 6.48221060E-12,
- 		 -4.41787263E+04, -5.80786049E+00]), 
-		NASA( [1000.0, 2000.0], [2.04132268E+01, -1.73601934E-02,
- 		 3.10764591E-05, -1.66713300E-08, 3.00083137E-12,
- 		 -4.95218618E+04, -1.03396882E+02]), 
+		NASA( [300.0, 1000.0], [1.07348583E+00, 1.72652206E-02,
+ 		 -3.17712232E-05, 2.71536568E-08, -8.69449304E-12,
+ 		 -1.95111691E+04, -5.65622336E+00]), 
+		NASA( [1000.0, 2000.0], [5.01870328E+00, -1.35424298E-03,
+ 		 2.27686310E-06, -1.09407298E-09, 1.79396487E-13,
+ 		 -2.02088623E+04, -2.41159621E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -1.997 eV.
+            DFT binding energy: -1.973 eV.
             """,
 	)
 
-species(name = "H2CO2_ads",
-	atoms = " H:2 C:1 O:2 Pt:1",
+species(name = "OOH_ads",
+	atoms = " H:1 O:2 Pt:1",
 	size = 1,
 	thermo = (
-		NASA( [300.0, 1000.0], [3.69923804E-01, 2.86585416E-02,
- 		 -2.78936419E-05, 1.36526428E-08, -2.53912516E-12,
- 		 -3.38139129E+04, -3.70031424E-01]), 
-		NASA( [1000.0, 2000.0], [1.22233961E+01, -7.74165832E-03,
- 		 1.39418350E-05, -7.54192659E-09, 1.36669487E-12,
- 		 -3.68949659E+04, -6.06800543E+01]), 
+		NASA( [300.0, 1000.0], [2.35436249E+00, 1.56199455E-02,
+ 		 -2.44044892E-05, 1.89914138E-08, -5.72399940E-12,
+ 		 -1.63543441E+04, -5.44754214E+00]), 
+		NASA( [1000.0, 2000.0], [6.82862101E+00, -2.14690068E-03,
+ 		 3.73379348E-06, -1.90923636E-09, 3.30955741E-13,
+ 		 -1.73104356E+04, -2.72037756E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
             for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -3.554 eV.
-            """,
-	)
-
-species(name = "OCH2CH3_ads",
-	atoms = " H:5 C:2 O:1 Pt:1",
-	size = 1,
-	thermo = (
-		NASA( [300.0, 1000.0], [4.61067651E-01, 2.53309271E-02,
- 		 -2.95243491E-06, -1.26602001E-08, 6.61140587E-12,
- 		 -2.36824748E+04, 3.46251964E+00]), 
-		NASA( [1000.0, 2000.0], [1.67501711E+01, -1.61554301E-02,
- 		 2.88603010E-05, -1.54358223E-08, 2.77154600E-12,
- 		 -2.83707674E+04, -8.15934592E+01]), 
-		 ),
-    longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
-            Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
-            for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
-            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -1.905 eV.
-            The two lowest frequencies, 12.0 and 92.3 cm-1, where replaced by the 2D gas model.
-            """,
-	)
-
-species(name = "CO3_ads",
-	atoms = " C:1 O:3 Pt:1",
-	size = 1,
-	thermo = (
-		NASA( [300.0, 1000.0], [2.60792367E-01, 2.96600289E-02,
- 		 -3.74624110E-05, 2.35857040E-08, -5.97914773E-12,
- 		 -6.24466136E+04, 4.32145289E+00]), 
-		NASA( [1000.0, 2000.0], [1.00467967E+01, -3.51639011E-03,
- 		 6.49178066E-06, -3.63351889E-09, 6.76298145E-13,
- 		 -6.48220891E+04, -4.46693341E+01]), 
-		 ),
-    longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
-            Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
-            for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
-            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -3.027 eV.
-            The two lowest frequencies, 89.5 and 92.5 cm-1, where replaced by the 2D gas model.
-            """,
-	)
-
-species(name = "HCO3_ads",
-	atoms = " H:1 C:1 O:3 Pt:1",
-	size = 1,
-	thermo = (
-		NASA( [300.0, 1000.0], [1.01328212E+00, 3.26276222E-02,
- 		 -3.70609785E-05, 2.09604143E-08, -4.66693351E-12,
- 		 -7.72078575E+04, -4.75360743E+00]), 
-		NASA( [1000.0, 2000.0], [1.28523534E+01, -5.70824836E-03,
- 		 1.02858082E-05, -5.56715984E-09, 1.01065309E-12,
- 		 -8.01648796E+04, -6.44494097E+01]), 
-		 ),
-    longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
-            Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
-            for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
-            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -2.365 eV.
-            """,
-	)
-
-species(name = "HCO2CH3_ads",
-	atoms = " H:4 C:2 O:2 Pt:1",
-	size = 1,
-	thermo = (
-		NASA( [300.0, 1000.0], [3.37688850E+00, 1.71682950E-02,
- 		 1.02263070E-05, -2.31122378E-08, 9.75945366E-12,
- 		 -5.01280981E+04, -7.58680924E+00]), 
-		NASA( [1000.0, 2000.0], [1.73815092E+01, -1.48389347E-02,
- 		 2.65610657E-05, -1.42501123E-08, 2.56517842E-12,
- 		 -5.43506999E+04, -8.16429248E+01]), 
-		 ),
-    longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
-            Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
-            for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
-            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -0.318 eV.
-            The two lowest frequencies, 62.9 and 75.5 cm-1, where replaced by the 2D gas model.
-            """,
-	)
-
-species(name = "HCOO_ads",
-	atoms = " H:1 C:1 O:2 Pt:1",
-	size = 1,
-	thermo = (
-		NASA( [300.0, 1000.0], [1.61659601E+00, 1.91323831E-02,
- 		 -1.56426057E-05, 5.33726639E-09, -3.02653735E-13,
- 		 -5.04412789E+04, -8.06287760E+00]), 
-		NASA( [1000.0, 2000.0], [1.01220751E+01, -5.52917713E-03,
- 		 1.00078508E-05, -5.45403041E-09, 9.94267748E-13,
- 		 -5.27276901E+04, -5.17074450E+01]), 
-		 ),
-    longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
-            Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
-            for an optimized 3x3 supercell (1/9ML coverage) following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
-            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF', fmax=2.5e-2.
-            DFT binding energy: -2.606 eV.
+            DFT binding energy: -0.742 eV.
+            The two lowest frequencies, 35.9 and 60.2 cm-1, where replaced by the 2D gas model.
             """,
 	)

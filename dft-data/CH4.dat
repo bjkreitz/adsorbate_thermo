@@ -1,0 +1,7 @@
+name = 'CH4_ads'
+DFT_binding_energy = [-0.122, 'eV']
+heat_of_formation_0K = [-78.33, 'kJ/mol']
+composition = {'H':4, 'C':1, 'N':0, 'O':0, 'Pt':1}
+sites = 1
+adsorbate_mass = [16.05, 'amu']
+frequencies = [3.2,8.1,15.1,17.6,32.2,61.3,1319.8,1320.7,1321.6,1535.8,1536.6,2981,3094.1,3096.3,3096.6,'cm-1']

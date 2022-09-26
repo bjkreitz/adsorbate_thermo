@@ -1,0 +1,7 @@
+name = 'OOH_ads'
+DFT_binding_energy = [-0.7419, 'eV']
+heat_of_formation_0K = [-121.28, 'kJ/mol']
+composition = {'H':1, 'C':0, 'N':0, 'O':2, 'Pt':1}
+sites = 1
+adsorbate_mass = [33.01, 'amu']
+frequencies = [35.9,60.2,120.9,214.5,300.9,335.3,468.8,1223.9,3655.8,'cm-1']

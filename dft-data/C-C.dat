@@ -1,0 +1,7 @@
+name = 'CC_ads'
+DFT_binding_energy = [-5.913, 'eV']
+heat_of_formation_0K = [200.76, 'kJ/mol']
+composition = {'H':0, 'C':2, 'N':0, 'O':0, 'Pt':1}
+sites = 1
+adsorbate_mass = [24, 'amu']
+frequencies = [228.6,334.3,392.3,396.7,484.3,1324.7,'cm-1']

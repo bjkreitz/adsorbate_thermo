@@ -1,0 +1,7 @@
+name = 'O-CH3_ads'
+DFT_binding_energy = [-1.3734, 'eV']
+heat_of_formation_0K = [-151.37, 'kJ/mol']
+composition = {'H':3, 'C':1, 'N':0, 'O':1, 'Pt':1}
+sites = 1
+adsorbate_mass = [31.04, 'amu']
+frequencies = [64.2,66.3,159.7,241.5,282.4,283.8,955.1,1132,1132.5,1423.1,1452.9,1453.5,2963.5,3052.5,3052.9,'cm-1']

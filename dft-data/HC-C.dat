@@ -1,0 +1,7 @@
+name = 'HC-C_ads'
+DFT_binding_energy = [-4.099, 'eV']
+heat_of_formation_0K = [121.35, 'kJ/mol']
+composition = {'H':1, 'C':2, 'N':0, 'O':0, 'Pt':1}
+sites = 1
+adsorbate_mass = [25.03, 'amu']
+frequencies = [91.9,206.6,293,356.6,475.5,718.7,857,1425.2,3201.3,'cm-1']

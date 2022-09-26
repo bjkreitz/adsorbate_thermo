@@ -1,0 +1,7 @@
+name = 'CHCH_vdW_ads'
+DFT_binding_energy = [-0.2, 'eV']
+heat_of_formation_0K = [182.42, 'kJ/mol']
+composition = {'H':2, 'C':2, 'N':0, 'O':0, 'Pt':1}
+sites = 1
+adsorbate_mass = [26.04, 'amu']
+frequencies = [8.5,8.7,10.8,45.3,80.5,591.7,591.8,744.3,755.8,2005.6,3374.1,3473.5,'cm-1']
