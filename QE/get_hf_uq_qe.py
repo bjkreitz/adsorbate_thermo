@@ -241,6 +241,6 @@ def compute_thermo_bee(molecule):
     return
 
 test = Molecule()
-parse_input_file('HCOO',test)
+parse_input_file('HCOO-mono',test)
 
 compute_thermo_bee(test)
