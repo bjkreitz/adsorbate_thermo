@@ -1,7 +1,7 @@
 name = 'CH2_ads'
-DFT_binding_energy = [-3.643, 'eV']
-heat_of_formation_0K = [5.19, 'kJ/mol']
+DFT_binding_energy = [-4.305236480140593, 'eV']
+heat_of_formation_0K = [6.406496033434905, 'kJ/mol']
 composition = {'H':2, 'C':1, 'N':0, 'O':0, 'Pt':1}
 sites = 1
 adsorbate_mass = [14.03, 'amu']
-frequencies = [172.2,377.4,568.2,663.2,735.7,906.8,1374.5,2992.5,3081.5,'cm-1']
+frequencies = [124.7,423.2,525.5,674,724.3,906.9,1364.4,2988.8,3078.2,'cm-1']

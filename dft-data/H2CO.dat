@@ -1,0 +1,7 @@
+name = 'H2C-O_ads'
+DFT_binding_energy = [-0.16109939408488572, 'eV']
+heat_of_formation_0K = [-158.89786390857267, 'kJ/mol']
+composition = {'H':2, 'C':1, 'N':0, 'O':1, 'Pt':1}
+sites = 1
+adsorbate_mass = [30.03, 'amu']
+frequencies = [12,51.8,120.6,134.2,143.2,244.1,1160.6,1229.2,1498.6,1740.1,2841.2,2892.1,'cm-1']

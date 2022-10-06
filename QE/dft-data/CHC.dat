@@ -1,0 +1,10 @@
+name = 'HC-C_ads'
+DFT_energy = [-378147.997714466, 'eV']
+ZPE_energy = [0.489, 'eV']
+frequencies=[227.5,240.4,327.8,391.7,461.7,711.3,850.4,1461.6,3212.3,'cm-1']
+gas_DFT_energy = [-527.24276334707, 'eV']
+gas_ZPE_energy = [0.365, 'eV']
+composition = {'H':1, 'C':2, 'N':0, 'O':0, 'Pt':1}
+sites = 1
+BEE = []
+gas_BEE = []

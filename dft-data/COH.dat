@@ -1,7 +1,7 @@
 name = 'COH_ads'
-DFT_binding_energy = [-4.262, 'eV']
-heat_of_formation_0K = [-248.39, 'kJ/mol']
+DFT_binding_energy = [-4.708231645054184, 'eV']
+heat_of_formation_0K = [-242.73462823439343, 'kJ/mol']
 composition = {'H':1, 'C':1, 'N':0, 'O':1, 'Pt':1}
 sites = 1
 adsorbate_mass = [29.02, 'amu']
-frequencies = [127.3,180.8,189.9,386.7,463.7,500.2,1124.9,1243.8,3632,'cm-1']
+frequencies = [177.8,185.6,204.5,368.4,553.8,558.9,1118.2,1235.1,3625.4,'cm-1']

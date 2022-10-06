@@ -1,0 +1,12 @@
+name = 'OOH_ads'
+DFT_energy = [-378785.711763663, 'eV']
+ZPE_energy = [0.379, 'eV']
+frequencies=[12,12,37.3,200.4,292.7,322.8,415.4,1192.2,3654,'cm-1']
+gas_DFT_energy = [-1168.42931479122, 'eV']
+gas_ZPE_energy = [0.374, 'eV']
+composition = {'H':1, 'C':0, 'N':0, 'O':2, 'Pt':1}
+sites = 1
+BEE = []
+gas_BEE = []
+
+

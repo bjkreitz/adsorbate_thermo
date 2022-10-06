@@ -1,7 +1,0 @@
-name = 'H2C-OH_ads'
-DFT_binding_energy = [-1.887, 'eV']
-heat_of_formation_0K = [-227.14, 'kJ/mol']
-composition = {'H':3, 'C':1, 'N':0, 'O':1, 'Pt':1}
-sites = 1
-adsorbate_mass = [31.04, 'amu']
-frequencies = [44.2,70.8,104.6,224.6,437.1,497.2,768.2,1012.7,1112.8,1186.1,1356.6,1450.5,2989.4,3097.3,3672.5,'cm-1']

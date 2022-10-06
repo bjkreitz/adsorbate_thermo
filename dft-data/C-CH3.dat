@@ -1,7 +1,0 @@
-name = 'CCH3_ads'
-DFT_binding_energy = [-5.592, 'eV']
-heat_of_formation_0K = [-81.56, 'kJ/mol']
-composition = {'H':3, 'C':2, 'N':0, 'O':0, 'Pt':1}
-sites = 1
-adsorbate_mass = [27.05, 'amu']
-frequencies = [145.7,159.6,159.8,399.4,453.5,454.3,975.5,975.7,1092.3,1352.6,1425.7,1426.1,2963.3,3040.5,3041.5,'cm-1']

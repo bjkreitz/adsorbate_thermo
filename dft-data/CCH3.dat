@@ -1,0 +1,7 @@
+name = 'CCH3_ads'
+DFT_binding_energy = [-6.086792713438626, 'eV']
+heat_of_formation_0K = [-79.43461222142423, 'kJ/mol']
+composition = {'H':3, 'C':2, 'N':0, 'O':0, 'Pt':1}
+sites = 1
+adsorbate_mass = [27.05, 'amu']
+frequencies = [68.1,130.4,183.2,375,426.6,463.9,980,981.6,1060,1367.1,1432.8,1433.6,2975.1,3045.3,3046.8,'cm-1']

@@ -1,4 +1,4 @@
-name = 'HCOO_ads'
+name = 'HCOO-bi_ads'
 DFT_binding_energy = [-2.606, 'eV']
 heat_of_formation_0K = [-403.79, 'kJ/mol']
 composition = {'H':1, 'C':1, 'N':0, 'O':2, 'Pt':1}

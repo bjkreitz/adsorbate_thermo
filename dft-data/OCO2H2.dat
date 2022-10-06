@@ -1,0 +1,7 @@
+name = 'OCO2H2_ads'
+DFT_binding_energy = [-0.34815149469068274, 'eV']
+heat_of_formation_0K = [-653.0855015587725, 'kJ/mol']
+composition = {'H':2, 'C':1, 'N':0, 'O':3, 'Pt':1}
+sites = 1
+adsorbate_mass = [62.03, 'amu']
+frequencies = [12,37.3,61.3,80.2,98,113.1,158.6,411,553.8,604.2,753.9,898.5,1069,1236.9,1263.6,1813.5,3689.9,3715.1,'cm-1']

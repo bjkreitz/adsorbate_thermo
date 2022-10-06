@@ -1,0 +1,7 @@
+name = 'OCH3_ads'
+DFT_binding_energy = [-1.7996924996259622, 'eV']
+heat_of_formation_0K = [-147.50091643972215, 'kJ/mol']
+composition = {'H':3, 'C':1, 'N':0, 'O':1, 'Pt':1}
+sites = 1
+adsorbate_mass = [31.04, 'amu']
+frequencies = [12,12,203.2,285.1,287.1,305,967.1,1133.5,1134.9,1433.9,1461.7,1462,2976.9,3061.4,3061.4,'cm-1']

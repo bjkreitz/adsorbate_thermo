@@ -1,0 +1,7 @@
+name = 'OCH2OH_ads'
+DFT_binding_energy = [1.5931208677357063, 'eV']
+heat_of_formation_0K = [-350.0508511881999, 'kJ/mol']
+composition = {'H':3, 'C':1, 'N':0, 'O':2, 'Pt':1}
+sites = 1
+adsorbate_mass = [47.04, 'amu']
+frequencies = [42,64.2,111.9,147,238.8,276.9,344.4,623.1,935.8,1015.6,1059.1,1185.5,1335.4,1376.2,1467,2839,2955.3,3723.2,'cm-1']

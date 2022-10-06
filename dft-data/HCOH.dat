@@ -1,7 +1,7 @@
 name = 'HCOH_ads'
-DFT_binding_energy = [-2.956, 'eV']
-heat_of_formation_0K = [-206.28, 'kJ/mol']
+DFT_binding_energy = [-2.9491011677891947, 'eV']
+heat_of_formation_0K = [-205.95959693807254, 'kJ/mol']
 composition = {'H':2, 'C':1, 'N':0, 'O':1, 'Pt':1}
 sites = 1
 adsorbate_mass = [30.03, 'amu']
-frequencies = [46.4,91.5,108,322.6,636.3,678.3,946.7,1197.7,1309.8,1406,3051.2,3206.8,'cm-1']
+frequencies = [12,58.4,132.3,319.3,644.8,673.7,944.4,1195,1302.7,1405.5,3058.5,3173.5,'cm-1']

@@ -1,7 +1,7 @@
 name = 'CH_ads'
-DFT_binding_energy = [-6.242, 'eV']
-heat_of_formation_0K = [-24.07, 'kJ/mol']
+DFT_binding_energy = [-4.819811169989407, 'eV']
+heat_of_formation_0K = [-20.21200874357669, 'kJ/mol']
 composition = {'H':1, 'C':1, 'N':0, 'O':0, 'Pt':1}
 sites = 1
 adsorbate_mass = [13.02, 'amu']
-frequencies = [459.1,461.1,600.5,803,803.3,3037.6,'cm-1']
+frequencies = [404,413.5,612.3,791.8,791.9,3032.6,'cm-1']

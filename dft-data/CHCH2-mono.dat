@@ -1,0 +1,7 @@
+name = 'CHCH2_ads'
+DFT_binding_energy = [-2.8596739470376633, 'eV']
+heat_of_formation_0K = [35.79860936540604, 'kJ/mol']
+composition = {'H':3, 'C':2, 'N':0, 'O':0, 'Pt':1}
+sites = 1
+adsorbate_mass = [27.05, 'amu']
+frequencies = [60.3, 116.4, 186.1, 320.7, 477.5,511.5,866.8,908.7,956.5,1212.6,1375.5,1572.7,3067.4,3090.0,3155.9,'cm-1']

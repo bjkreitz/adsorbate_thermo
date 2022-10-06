@@ -1,0 +1,9 @@
+name = 'OCH2OH_ads'
+DFT_energy = [-379079.866656716, 'eV']
+ZPE_energy = [1.224, 'eV']
+gas_DFT_energy = [-1462.0715358483, 'eV']
+gas_ZPE_energy = [1.094, 'eV']
+composition = {'H':3, 'C':1, 'N':0, 'O':2, 'Pt':1}
+sites = 1
+BEE = []
+gas_BEE = []

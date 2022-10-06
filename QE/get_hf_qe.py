@@ -17,6 +17,7 @@ class Molecule:
                 self.Eref={'CH4':-324.294,'H2O':-611.0186083,'H2':-32.6984442,'NH3':-442.6510481} #DFT energies of the reference species (ZPE corrected) in eV
                 self.Eslab=-377616.072 #DFT energy of the slab in eV
                 self.dHrxnatct={'H2-2H':432.068, 'O2-2O':493.688, 'N2-2N':941.157} #Heats of the dissociation reactions in the gas phase from the ATcT database, version 1.122r (5/13/2022)
+                self.molecular_mass_elements={'H': 1.01, 'C': 12.01, 'N': 14, 'O': 16}
                 
 def parse_input_file(inputfile, molecule):
     
@@ -122,6 +123,12 @@ def parse_input_file(inputfile, molecule):
 
 def compute_thermo(molecule):
 
+    #calculate the molecular mass
+    molecular_mass=molecule.composition['H']*molecule.molecular_mass_elements['H']
+    molecular_mass+=molecule.composition['O']*molecule.molecular_mass_elements['O']
+    molecular_mass+=molecule.composition['C']*molecule.molecular_mass_elements['C']
+    molecular_mass+=molecule.composition['N']*molecule.molecular_mass_elements['N']
+    
     if molecule.name=='H_ads':
        molecule.energy_gas=(molecule.DFT_energy_gas+molecule.ZPE_energy_gas+molecule.dHrxnatct['H2-2H']/molecule.eV_to_kJpermole)/2
     elif molecule.name=='O_ads':
@@ -142,14 +149,17 @@ def compute_thermo(molecule):
               +molecule.composition['N']*molecule.dHfatct['NH3']
               +(molecule.composition['H']/2-2*molecule.composition['C']-molecule.composition['O']-3/2*molecule.composition['N'])*molecule.dHfatct['H2']
               +molecule.dHrxndftgas*molecule.eV_to_kJpermole)
-    
+
     molecule.dHads=molecule.energy-molecule.energy_gas-molecule.Eslab
     molecule.dHf=molecule.dHfgas+molecule.dHads*molecule.eV_to_kJpermole
     
-    print(molecule.dHf)
-    print(molecule.dHads)
+    #print(molecule.dHfgas)
+    print('heat of formation= ' +str(molecule.dHf))
+    print('DFT binding energy= ' + str(molecule.dHads))
+    print('molecular mass= ' + str(molecular_mass))
+    
     return
 
 test = Molecule()
-parse_input_file('CH2CHCH2',test)
+parse_input_file('OOH',test)
 compute_thermo(test)

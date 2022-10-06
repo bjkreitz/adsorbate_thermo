@@ -1,0 +1,9 @@
+name = 'H2CO2H2_ads'
+DFT_energy = [-379097.341340896, 'eV']
+ZPE_energy = [1.535, 'eV']
+gas_DFT_energy = [-1480.91119896168, 'eV']
+gas_ZPE_energy = [1.518, 'eV']
+composition = {'H':4, 'C':1, 'N':0, 'O':2, 'Pt':1}
+sites = 1
+BEE = []
+gas_BEE = []

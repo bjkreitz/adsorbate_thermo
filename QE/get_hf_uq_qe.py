@@ -27,7 +27,7 @@ class Molecule:
 def parse_input_file(inputfile, molecule):
     
     import os
-    script_dir='data-qe/'
+    script_dir='dft-data/'
     rel_path = str(script_dir) + str(inputfile) + '.dat'
     abs_file_path = os.path.join(rel_path)
     
@@ -241,6 +241,6 @@ def compute_thermo_bee(molecule):
     return
 
 test = Molecule()
-parse_input_file('HCOO-mono',test)
+parse_input_file('CH2CHCH2',test)
 
 compute_thermo_bee(test)
