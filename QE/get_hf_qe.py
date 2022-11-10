@@ -155,11 +155,13 @@ def compute_thermo(molecule):
     
     #print(molecule.dHfgas)
     print('heat of formation= ' +str(molecule.dHf))
+    print('heat of formation precursor= ' +str(molecule.dHfgas))
+    print('heat of reaction precursor= ' +str(molecule.dHrxndftgas))
     print('DFT binding energy= ' + str(molecule.dHads))
     print('molecular mass= ' + str(molecular_mass))
     
     return
 
 test = Molecule()
-parse_input_file('OOH',test)
+parse_input_file('HCO3',test)
 compute_thermo(test)

@@ -1,0 +1,10 @@
+name = 'CHCH2C-bi_ads'
+DFT_energy = [-378440.234951229, 'eV']
+ZPE_energy = [0.617, 'eV']
+frequencies=[85.1, 135.1, 190.7, 269.9, 384.9, 480.2, 514.6, 743.9, 1023.1, 1220.1, 1747.9, 3165.3,'cm-1']
+gas_DFT_energy = [-784.729046413908, 'eV']
+gas_ZPE_energy = [0.533, 'eV']
+composition = {'H':3, 'C':3, 'N':0, 'O':0, 'Pt':2}
+sites = 1
+BEE = []
+gas_BEE = []
