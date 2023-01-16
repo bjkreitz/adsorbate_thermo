@@ -1,9 +1,0 @@
-name = 'OCO2H2_ads'
-DFT_energy = [-379642.30400925, 'eV']
-ZPE_energy = [1.026, 'eV']
-gas_DFT_energy = [-2025.87185775532, 'eV']
-gas_ZPE_energy = [1.014, 'eV']
-composition = {'H':2, 'C':1, 'N':0, 'O':3, 'Pt':1}
-sites = 1
-BEE = []
-gas_BEE = []

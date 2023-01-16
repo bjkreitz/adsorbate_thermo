@@ -1,0 +1,16 @@
+name = 'CH2CHO-mono_ads'
+composition = {'H':3, 'C':2, 'N':0, 'O':1, 'Pt':1}
+DFT_energy = [-378760.6818, 'eV']
+ZPE_energy = [1.238, 'eV']
+frequencies= [58.8,75.3,126.4,176.6,288.7,454.4,539.3,780.8,906.4,984.5,1082.3,1120.7,1369.7,1427.3,1675.8,2782.3,3016.9,3099.6,'cm-1']
+gas_DFT_energy = [-1142.540988, 'eV']
+gas_ZPE_energy = [1.145, 'eV']
+sites = 1
+BEE = []
+gas_BEE = []
+heat_of_formation_0K_gas = [23.04, 'kJ/mol']
+number_of_atoms = [6]
+external_symmetry = [1]
+rotational_constants = [66.65, 11.41, 9.74, 'GHZ']
+electronic_degeneracy = [2]
+gas_frequencies = [375.9,505.1,739.4,970.7,982.1,1150.5,1367.6,1462.8,1499.1,2901.5,3111.9,3227.1, 'cm-1']

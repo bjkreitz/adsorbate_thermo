@@ -175,6 +175,11 @@ def thermo(molecule, temperature):
     molecule.heat_of_formation_298K = molecule.heat_of_formation_0K + molecule.dH[0] - molecule.heat_of_formation_correction
     molecule.H = molecule.heat_of_formation_298K + molecule.dH - molecule.dH[0]
     
+    molecule.correction_factor=molecule.heat_of_formation_298K-molecule.heat_of_formation_0K
+    
+    print(np.round(molecule.dH[0],3))
+    print (molecule.correction_factor)
+    print (np.round(molecule.heat_of_formation_0K,1))
     print (molecule.heat_of_formation_298K)
     print (molecule.H[0])
 

@@ -1,6 +1,6 @@
 name = 'HCO3_ads'
 DFT_binding_energy = [-2.365, 'eV']
-heat_of_formation_0K = [-622.45, 'kJ/mol']
+heat_of_formation_0K = [-622.44, 'kJ/mol']
 composition = {'H':1, 'C':1, 'N':0, 'O':3, 'Pt':1}
 sites = 1
 adsorbate_mass = [61.02, 'amu']

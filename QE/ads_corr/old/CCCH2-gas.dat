@@ -1,0 +1,9 @@
+name = 'CCCH2_gas'
+heat_of_formation_0K = [554.37, 'kJ/mol']
+composition = {'H':2, 'C':3, 'N':0, 'O':0}
+molecule_mass = [38.05, 'amu']
+number_of_atoms = [5]
+external_symmetry = [2]
+rotational_constants = ['10.13', 'GHZ']
+electronic_degeneracy = [3]
+frequencies = [252.2,313.8,407.5,1004.7,1027.8,1052.7,1459.7,1724.8,3062.7,3132.4, 'cm-1']

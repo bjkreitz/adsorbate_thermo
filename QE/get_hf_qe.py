@@ -163,5 +163,5 @@ def compute_thermo(molecule):
     return
 
 test = Molecule()
-parse_input_file('HCO3',test)
+parse_input_file('CH',test)
 compute_thermo(test)

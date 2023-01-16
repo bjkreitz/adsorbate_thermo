@@ -1,0 +1,6 @@
+heat_of_formation_0K_gas = [, 'kJ/mol']
+number_of_atoms = []
+external_symmetry = []
+rotational_constants = [, 'GHZ']
+electronic_degeneracy = []
+gas_frequencies = [, 'cm-1']

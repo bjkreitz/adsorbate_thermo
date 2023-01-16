@@ -1,7 +1,7 @@
 name = 'H_ads'
-DFT_binding_energy = [-2.479, 'eV']
-heat_of_formation_0K = [-23.2, 'kJ/mol']
+DFT_binding_energy = [-2.481, 'eV']
+heat_of_formation_0K = [-23.38, 'kJ/mol']
 composition = {'H':1, 'C':0, 'N':0, 'O':0, 'Pt':1}
 sites = 1
 adsorbate_mass = [1.01, 'amu']
-frequencies = [589.7,590.1,996.5,'cm-1']
+frequencies = [601.9, 606.6, 965.8,'cm-1']

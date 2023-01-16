@@ -1,0 +1,7 @@
+name = 'CH3CO_ads'
+DFT_binding_energy = [-2.499, 'eV']
+heat_of_formation_0K = [-214.94, 'kJ/mol']
+composition = {'H':3, 'C':2, 'N':0, 'O':1, 'Pt':1}
+sites = 1
+adsorbate_mass = [43.05, 'amu']
+frequencies=[23.8,88.9,105.9,119.4,262.4,269.2,514.1,566.9,907.6,1003.3,1067.3,1343.8,1432.9,1437.2,1694.8,3003.1,3081.5,3099.6,'cm-1']

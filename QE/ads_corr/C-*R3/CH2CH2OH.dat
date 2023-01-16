@@ -1,0 +1,16 @@
+name = 'CH2CH2OH_ads'
+composition = {'H':5, 'C':2, 'N':0, 'O':1, 'Pt':1}
+DFT_energy = [-378794.4408, 'eV']
+ZPE_energy = [1.883, 'eV']
+frequencies= [12,93.4,147.5,196.7,266.9,415.6,475.0,519.9,724.6,859.9,925.4,1031.0,1074.4,1123.9,1235.4,1308.3,1379.6,1431.9,1455.7,2941.7,2991.6,3039.1,3056.3,3673.0,'cm-1']
+gas_DFT_energy = [-1175.74956, 'eV']
+gas_ZPE_energy = [1.752, 'eV']
+sites = 1
+BEE = []
+gas_BEE = []
+heat_of_formation_0K_gas = [-13.07, 'kJ/mol']
+number_of_atoms = [8]
+external_symmetry = [1]
+rotational_constants = ['40.36', '9.86', '8.46', 'GHZ']
+electronic_degeneracy = [2]
+gas_frequencies = [173.5,265.2,413.2,578.5,823.6,912.0,1057.9,1079.3,1171.9,1256.0,1379.0,1428.7,1447.5,2790.2,2905.7,3135.3,3244.5,3749.2, 'cm-1']

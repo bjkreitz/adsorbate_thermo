@@ -1,0 +1,16 @@
+name = 'OCO2H2_ads'
+composition = {'H':2, 'C':1, 'N':0, 'O':3, 'Pt':1}
+DFT_energy = [-379642.30400925, 'eV']
+ZPE_energy = [1.026, 'eV']
+frequencies = [12,37.3,61.3,80.2,98,113.1,158.6,411,553.8,604.2,753.9,898.5,1069,1236.9,1263.6,1813.5,3689.9,3715.1,'cm-1']
+gas_DFT_energy = [-2025.87185775532, 'eV']
+gas_ZPE_energy = [1.014, 'eV']
+sites = 1
+BEE = []
+gas_BEE = []
+heat_of_formation_0K_gas = [-602.53, 'kJ/mol']
+number_of_atoms = [6]
+external_symmetry = [2]
+rotational_constants = [11.33, 11.12, 5.62, 'GHZ']
+electronic_degeneracy = [1]
+gas_frequencies = [186.5, 422.1, 550.7, 592.3, 751.0, 890.0, 1048.6, 1237.2, 1264.8, 1844.5, 3719.4, 3746.4, 'cm-1']

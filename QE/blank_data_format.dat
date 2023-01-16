@@ -1,9 +1,10 @@
 name = 'CO2_ads'
+composition = {'H':0, 'C':1, 'N':0, 'O':0, 'Pt':1}
 DFT_energy = [, 'eV']
 ZPE_energy = [, 'eV']
+frequencies= [,'cm-1']
 gas_DFT_energy = [, 'eV']
 gas_ZPE_energy = [, 'eV']
-composition = {'H':0, 'C':1, 'N':0, 'O':0, 'Pt':1}
 sites = 1
 BEE = []
 gas_BEE = []

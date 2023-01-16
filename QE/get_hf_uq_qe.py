@@ -23,6 +23,7 @@ class Molecule:
                 self.dHrxnatct={'H2-2H':432.068, 'O2-2O':493.688, 'N2-2N':941.157}
                 self.Erefbeeslab=data['Pt'].to_numpy()*self.rydberg_to_eV*self.scale_BEEF
                 self.Erefbee={'CH4':data['CH4'].to_numpy()*self.rydberg_to_eV*self.scale_BEEF,'H2O':data['H2O'].to_numpy()*self.rydberg_to_eV*self.scale_BEEF,'H2':data['H2'].to_numpy()*self.rydberg_to_eV*self.scale_BEEF, 'NH3':data['NH3'].to_numpy()*self.rydberg_to_eV*self.scale_BEEF}
+                self.molecular_mass_elements={'H': 1.01, 'C': 12.01, 'N': 14, 'O': 16}
                 
 def parse_input_file(inputfile, molecule):
     
@@ -228,7 +229,7 @@ def compute_thermo_bee(molecule):
 
         molecule.ddHf_bee[i]=-molecule.dHf+molecule.dHf_bee[i]
         molecule.ddHads_bee[i]=-molecule.dHads+molecule.dHads_bee[i]
-        print(molecule.dHf_bee[i])
+        #print(molecule.dHf_bee[i])
     import os
     
     script_dir=''
@@ -241,6 +242,6 @@ def compute_thermo_bee(molecule):
     return
 
 test = Molecule()
-parse_input_file('CH2CHCH2',test)
+parse_input_file('CH',test)
 
 compute_thermo_bee(test)

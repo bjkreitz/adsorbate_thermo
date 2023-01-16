@@ -9,10 +9,10 @@ species(name = "CO2_ads",
 	thermo = (
 		NASA( [300.0, 1000.0], [2.00959799E+00, 1.33597565E-02,
  		 -1.62303912E-05, 1.10029585E-08, -3.14484723E-12,
- 		 -5.75396307E+04, -2.58903014E+00]), 
+ 		 -5.27818299E+04, -2.58903014E+00]), 
 		NASA( [1000.0, 2000.0], [6.98298591E+00, -3.09871776E-03,
  		 5.62883251E-06, -3.07847525E-09, 5.62449215E-13,
- 		 -5.87912902E+04, -2.76481272E+01]), 
+ 		 -5.40334894E+04, -2.76481272E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
@@ -29,10 +29,10 @@ species(name = "CO3_ads",
 	thermo = (
 		NASA( [300.0, 1000.0], [2.60792367E-01, 2.96600289E-02,
  		 -3.74624110E-05, 2.35857040E-08, -5.97915120E-12,
- 		 -6.76624681E+04, 4.32145289E+00]), 
+ 		 -6.29096622E+04, 4.32145289E+00]), 
 		NASA( [1000.0, 2000.0], [1.00467898E+01, -3.51638045E-03,
  		 6.49177075E-06, -3.63351445E-09, 6.76297410E-13,
- 		 -7.00379399E+04, -4.46692931E+01]), 
+ 		 -6.52851340E+04, -4.46692931E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional
@@ -49,10 +49,10 @@ species(name = "HCO3_ads",
 	thermo = (
 		NASA( [300.0, 1000.0], [1.01328212E+00, 3.26276222E-02,
  		 -3.70609785E-05, 2.09604143E-08, -4.66693351E-12,
- 		 -8.19013317E+04, -4.75360743E+00]), 
+ 		 -7.71489241E+04, -4.75360743E+00]), 
 		NASA( [1000.0, 2000.0], [1.28523534E+01, -5.70824836E-03,
  		 1.02858082E-05, -5.56715984E-09, 1.01065309E-12,
- 		 -8.48583538E+04, -6.44494097E+01]), 
+ 		 -8.01059462E+04, -6.44494097E+01]), 
 		 ),
     longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
             Based on DFT calculations by Bjarne Kreitz from Brown University. PAW DFT calculations were performed with Quantum Espresso using the BEEF-vdW functional

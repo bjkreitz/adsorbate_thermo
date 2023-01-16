@@ -1,0 +1,16 @@
+name = 'CHCCH3-bi_ads'
+composition = {'H':4, 'C':3, 'N':0, 'O':0, 'Pt':2}
+DFT_energy = [-378457.9775, 'eV']
+ZPE_energy = [1.565, 'eV']
+frequencies= [118.5, 155.8, 226.4, 262.8, 295.9, 422.1, 474.0, 649.4, 798.9, 930.8, 1004.9, 1021.2, 1122.1, 1323.7, 1375.0, 1438.2, 1456.1, 2982.0, 3040.7, 3076.6, 3078.0,'cm-1']
+gas_DFT_energy = [-839.9536597, 'eV']
+gas_ZPE_energy = [1.528, 'eV']
+sites = 2
+BEE = []
+gas_BEE = []
+heat_of_formation_0K_gas = [192.67, 'kJ/mol']
+number_of_atoms = [7]
+external_symmetry = [3]
+rotational_constants = [160.54, 8.57, 8.57, 'GHZ']
+electronic_degeneracy = [1]
+gas_frequencies = [340.0,390.8,630.7,644.6,936.4,1039.6,1055.1,1394.7,1461.4,1465.2,2171.9,3005.5,3050.8,3053.6,451.1, 'cm-1']

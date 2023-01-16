@@ -1,0 +1,7 @@
+name = 'COOH_ads'
+DFT_binding_energy = [-2.519, 'eV']
+heat_of_formation_0K = [-440.60, 'kJ/mol']
+composition = {'H':1, 'C':1, 'N':0, 'O':2, 'Pt':1}
+sites = 1
+adsorbate_mass = [45.017, 'amu']
+frequencies = [36.7,64.6,98.8,265.7,278.7,509.8,625.1,657.9,1064.9,1232.5,1702.6,3488.4, 'cm-1']
