@@ -1,0 +1,16 @@
+name = 'CHCH2CH2-bi_ads'
+composition = {'H':5, 'C':3, 'N':0, 'O':0, 'Pt':2}
+DFT_energy = [-378473.9965, 'eV']
+ZPE_energy = [1.869, 'eV']
+frequencies= [112.2,141.2,165.4,212.8,464.9,539.0,603.8,690.9,722.6,843.5,913.4,1040.9,1088.5,1104.6,1208.8,1247.6,1311.7,1368.4,1437.7,2891.0,2918.2,3009.1,3043.9,3067.6,'cm-1']
+gas_DFT_energy = [-852.5477107, 'eV']
+gas_ZPE_energy = [1.638, 'eV']
+sites = 2
+BEE = []
+gas_BEE = []
+heat_of_formation_0K_gas = [554.4, 'kJ/mol']
+number_of_atoms = [8]
+external_symmetry = [2]
+rotational_constants = [24.2, 20.5, 13.21, 'GHZ']
+electronic_degeneracy = [2]
+gas_frequencies = [504, 731, 765, 837, 931, 991, 1030, 1069, 1073, 1140, 1262, 1432, 1453, 3016, 3029, 3082, 3096, 3165, 'cm-1']

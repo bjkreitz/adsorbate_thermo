@@ -43,8 +43,8 @@ entry(
 """,
     thermo = NASA(
        polynomials = [    
-            NASAPolynomial(coeffs=[-2.07570125E+00, 1.73580835E-02, -2.60920784E-05, 1.89282268E-08, -5.38835643E-12, -3.16618959E+03, 8.15361518E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
-            NASAPolynomial(coeffs=[2.72248139E+00, -1.06817206E-03, 1.98653790E-06, -1.12048461E-09, 2.09811636E-13, -4.21823896E+03, -1.53207470E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
+        NASAPolynomial(coeffs=[-2.07570125E+00, 1.73580835E-02, -2.60920784E-05, 1.89282268E-08, -5.38835643E-12, -3.16618959E+03, 8.15361518E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
+        NASAPolynomial(coeffs=[2.72248139E+00, -1.06817206E-03, 1.98653790E-06, -1.12048461E-09, 2.09811636E-13, -4.21823896E+03, -1.53207470E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
         ],
         Tmin = (298.0,'K'),
         Tmax = (2000.0,'K'),
@@ -71,8 +71,8 @@ entry(
 """,
     thermo = NASA(
     	polynomials = [
-            NASAPolynomial(coeffs=[3.86406413E+00, 7.53456449E-04, -1.65571442E-06, 1.55223217E-09, -4.46782260E-13, -1.68927505E+03, -8.85806531E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
-            NASAPolynomial(coeffs=[4.06879652E+00, -4.95806734E-04, 6.59234335E-07, -1.72597715E-10, 7.62965383E-15, -1.70070035E+03, -9.71917749E+00], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
+        NASAPolynomial(coeffs=[3.86406413E+00, 7.53456449E-04, -1.65571442E-06, 1.55223217E-09, -4.46782260E-13, -1.68927505E+03, -8.85806531E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
+        NASAPolynomial(coeffs=[4.06879652E+00, -4.95806734E-04, 6.59234335E-07, -1.72597715E-10, 7.62965383E-15, -1.70070035E+03, -9.71917749E+00], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
         ],
         Tmin = (298.0,'K'),
         Tmax = (2000.0,'K'),
@@ -102,8 +102,8 @@ entry(
 """,
     thermo = NASA(
     polynomials = [
-            NASAPolynomial(coeffs=[2.72971388E+00, 8.71051652E-03, -1.29131826E-05, 1.07295000E-08, -3.39433689E-12, -3.26126997E+04, -6.04479516E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
-            NASAPolynomial(coeffs=[5.85496280E+00, -3.28847412E-03, 5.56990501E-06, -2.73008086E-09, 4.55898028E-13, -3.33046343E+04, -2.13518349E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
+        NASAPolynomial(coeffs=[2.72971388E+00, 8.71051652E-03, -1.29131826E-05, 1.07295000E-08, -3.39433689E-12, -3.26126997E+04, -6.04479516E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
+        NASAPolynomial(coeffs=[5.85496280E+00, -3.28847412E-03, 5.56990501E-06, -2.73008086E-09, 4.55898028E-13, -3.33046343E+04, -2.13518349E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
         ],
         Tmin = (298.0,'K'),
         Tmax = (2000.0,'K'),
@@ -132,8 +132,8 @@ entry(
 """,
     thermo = NASA(
     polynomials = [
-            NASAPolynomial(coeffs=[1.42359828E+00, 1.57830409E-02, -2.91659307E-05, 2.50432531E-08, -8.04088046E-12, -1.89993029E+04, -3.15230478E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
-            NASAPolynomial(coeffs=[5.03574444E+00, -1.34422013E-03, 2.25915779E-06, -1.08547653E-09, 1.77875516E-13, -1.96344169E+04, -2.00345222E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
+        NASAPolynomial(coeffs=[1.42359828E+00, 1.57830409E-02, -2.91659307E-05, 2.50432531E-08, -8.04088046E-12, -1.89993029E+04, -3.15230478E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
+        NASAPolynomial(coeffs=[5.03574444E+00, -1.34422013E-03, 2.25915779E-06, -1.08547653E-09, 1.77875516E-13, -1.96344169E+04, -2.00345222E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
         ],
         Tmin = (298.0,'K'),
         Tmax = (2000.0,'K'),
@@ -162,8 +162,8 @@ entry(
 """,
     thermo = NASA(
     polynomials = [
-            NASAPolynomial(coeffs=[2.96560716E+00, 1.33978369E-02, -1.34293557E-05, 7.12175948E-09, -1.41063029E-12, -2.52496080E+04, -6.15466087E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
-            NASAPolynomial(coeffs=[8.63537655E+00, -4.64148419E-03, 8.09255957E-06, -4.16762137E-09, 7.26386983E-13, -2.66787468E+04, -3.48128042E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
+        NASAPolynomial(coeffs=[2.96560716E+00, 1.33978369E-02, -1.34293557E-05, 7.12175948E-09, -1.41063029E-12, -2.52496080E+04, -6.15466087E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
+        NASAPolynomial(coeffs=[8.63537655E+00, -4.64148419E-03, 8.09255957E-06, -4.16762137E-09, 7.26386983E-13, -2.66787468E+04, -3.48128042E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
         ],
         Tmin = (298.0,'K'),
         Tmax = (2000.0,'K'),
@@ -309,7 +309,6 @@ entry(
 1 X  u0 p0 c0 {2,Q}
 2 C  u0 p0 c0 {1,Q}
 """,
-    thermo = NASA(
     thermo = NASA(
         polynomials = [
             NASAPolynomial(coeffs=[-1.94350915E+00, 1.97767398E-02, -3.36336641E-05, 2.69027201E-08, -8.27959229E-12, 7.00056568E+03, 7.17469909E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
@@ -1151,9 +1150,9 @@ entry(
 4 X u0 p0 c0
 """,
     thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[2.00959799E+00, 1.33597565E-02, -1.62303912E-05, 1.10029585E-08, -3.14484723E-12,-5.27818299E+04, -2.58903014E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')), 
-            NASAPolynomial(coeffs=[6.98298591E+00, -3.09871776E-03, 5.62883251E-06, -3.07847525E-09, 5.62449215E-13,-5.40334894E+04, -2.76481272E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')), 
+    polynomials = [
+        NASAPolynomial(coeffs=[2.00959799E+00, 1.33597565E-02,-1.62303912E-05, 1.10029585E-08, -3.14484723E-12,-5.27818299E+04, -2.58903014E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')), 
+        NASAPolynomial(coeffs=[6.98298591E+00, -3.09871776E-03,5.62883251E-06, -3.07847525E-09, 5.62449215E-13,-5.40334894E+04, -2.76481272E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')), 
         ],
         Tmin = (298,'K'),
         Tmax = (2000,'K'),
@@ -1619,9 +1618,9 @@ entry(
 6  X u0 p0 c0 {4,S}
 """,
     thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[2.60792367E-01, 2.96600289E-02,-3.74624110E-05, 2.35857040E-08, -5.97915120E-12,-6.29096622E+04, 4.32145289E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')), 
-            NASAPolynomial(coeffs=[1.00467898E+01, -3.51638045E-03,6.49177075E-06, -3.63351445E-09, 6.76297410E-13,-6.52851340E+04, -4.46692931E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')), 
+    polynomials = [
+        NASAPolynomial(coeffs=[2.60792367E-01, 2.96600289E-02,-3.74624110E-05, 2.35857040E-08, -5.97915120E-12,-6.29096622E+04, 4.32145289E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')), 
+        NASAPolynomial(coeffs=[1.00467898E+01, -3.51638045E-03,6.49177075E-06, -3.63351445E-09, 6.76297410E-13,-6.52851340E+04, -4.46692931E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')), 
         ],
         Tmin = (298,'K'),
         Tmax = (2000,'K'),
@@ -1651,9 +1650,9 @@ entry(
 6 X u0 p0 c0 {1,S}
 """,
     thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[1.01328212E+00, 3.26276222E-02, -3.70609785E-05, 2.09604143E-08, -4.66693351E-12, -7.71489241E+04, -4.75360743E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[1.28523534E+01, -5.70824836E-03, 1.02858082E-05, -5.56715984E-09, 1.01065309E-12, -8.01059462E+04, -6.44494097E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')), 
+    polynomials = [
+        NASAPolynomial(coeffs=[1.01328212E+00, 3.26276222E-02,-3.70609785E-05, 2.09604143E-08, -4.66693351E-12,-7.71489241E+04, -4.75360743E+00], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
+        NASAPolynomial(coeffs=[1.28523534E+01, -5.70824836E-03,1.02858082E-05, -5.56715984E-09, 1.01065309E-12,-8.01059462E+04, -6.44494097E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')), 
         ],
         Tmin = (298,'K'),
         Tmax = (2000,'K'),
@@ -2424,7 +2423,7 @@ entry(
 
 entry(
     index = 76,
-    label = "OCO2H2-vdw_ads",
+    label = "OCO2H2-vdW_ads",
     molecule =
 """
 1 O u0 p2 c0 {4,S} {5,S}
@@ -2862,37 +2861,37 @@ entry(
     facet = "111",
 )
 
-#entry(
-#    index = 89,
-#    label = "CCH2C-bi_ads",
-#    molecule =  
-#"""
-#1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-#2 C u0 p0 c0 {1,S} {6,T}
-#3 C u0 p0 c0 {1,S} {7,T}
-#4 H u0 p0 c0 {1,S}
-#5 H u0 p0 c0 {1,S}
-#6 X u0 p0 c0 {2,T}
-#7 X u0 p0 c0 {3,T}
-#""",
-#    thermo = NASA(
-#        polynomials = [
-#            NASAPolynomial(coeffs=[-4.54184110E+00, 5.16072922E-02, -6.99489368E-05, 4.85158534E-08, -1.34564929E-11, #1.42819935E+04, 1.65180273E+01], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
-#            NASAPolynomial(coeffs=[1.21430416E+01, -7.83417928E-03, 1.41226720E-05, -7.64053459E-09, 1.38487512E-12, #1.03648004E+04, -6.63229379E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
-#        ],
-#        Tmin = (298.0,'K'),
-#        Tmax = (2000.0,'K'),
-#    ),
-#    longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py).
-#            Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
-#            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
-#            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
-#            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
-#            fmax=2.5e-2. DFT binding energy: -3.099 eV.
-#""",
-#    metal = "Pt",
-#    facet = "111",
-#)
+entry(
+    index = 89,
+    label = "CCH2C-bi_ads",
+    molecule =  
+"""
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,T}
+3 C u0 p0 c0 {1,S} {7,T}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 X u0 p0 c0 {2,T}
+7 X u0 p0 c0 {3,T}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[-4.54184110E+00, 5.16072922E-02, -6.99489368E-05, 4.85158534E-08, -1.34564929E-11, 1.42819935E+04, 1.65180273E+01], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
+            NASAPolynomial(coeffs=[1.21430416E+01, -7.83417928E-03, 1.41226720E-05, -7.64053459E-09, 1.38487512E-12, 1.03648004E+04, -6.63229379E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
+        ],
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
+    ),
+    longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2. DFT binding energy: -5.613 eV.
+""",
+    metal = "Pt",
+    facet = "111",
+)
 
 
 entry(
@@ -3664,6 +3663,40 @@ entry(
             fmax=2.5e-2. DFT binding energy: -1.593 eV.
 
             The two lowest frequencies, 42.0 and 64.2 cm-1, where replaced by the 2D gas model.
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 113,
+    label = "CHCH2CH-bi_ads",
+    molecule =  
+"""
+1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+2 C u0 p0 c0 {1,S} {6,S} {8,D}
+3 C u0 p0 c0 {1,S} {7,S} {9,D}
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {1,S}
+6 H u0 p0 c0 {2,S}
+7 H u0 p0 c0 {3,S}
+8 X u0 p0 c0 {2,D}
+9 X u0 p0 c0 {3,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[-4.87253669E+00, 5.56211271E-02, -6.41174541E-05, 3.90946699E-08, -9.64986424E-12, 5.91492593E+03, 1.84285138E+01], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
+            NASAPolynomial(coeffs=[1.60332585E+01, -1.30870619E-02, 2.34592896E-05, -1.25997206E-08, 2.27017641E-12, 7.10566828E+02, -8.68123330E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
+        ],
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
+    ),
+    longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2. DFT binding energy: -1.808 eV.
 """,
     metal = "Pt",
     facet = "111",

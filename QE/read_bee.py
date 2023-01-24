@@ -58,7 +58,7 @@ def parse_gas_input_file(inputfile):
     bee_list = bee_list.strip().replace(" ","")
     return bee_list  
 
-species='cchch2'
+species='chch2ch'
 
 adsorbate=parse_input_file(species)
 gas=parse_gas_input_file(species)

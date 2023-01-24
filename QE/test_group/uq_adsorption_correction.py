@@ -11,10 +11,10 @@ index=[]
 #This goes throug all the species list files that were used to construct the ensembles
 #each file is for a specific group in the adsorptionPt111 file. The names have to match
 groups=[]
-for filename in glob.iglob('species_list_*.dat'):
-    bits_info=filename.split('_')
-    bits=bits_info[2].replace('.dat','')
-    groups.append(bits)
+for filename in glob.iglob('ensembles/*_bee.txt'):
+    bits_dat_info=filename.split('_')
+    bits_dat=bits_dat_info[0].replace('.txt','').replace('ensembles/','')
+    groups.append(bits_dat)
     
 #Cycle through the entire ensemble of BEEF values
 for k in range(N_BEE):
