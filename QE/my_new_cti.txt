@@ -1,5 +1,5 @@
 
- CCH2C-bi_ads CHCH2CH-bi_ads CCH3_ads
+ CCH2C-bi_ads CHCH2CH-bi_ads CCH3_ads CH3OCO_ads
 
 
 
@@ -64,6 +64,28 @@ species(name = "CCH3_ads",
             following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
             kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
             fmax=2.5e-2. DFT binding energy: -6.087 eV.
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+species(name = "CH3OCO_ads",
+	atoms = " H:3 C:2 O:2 Pt:1",
+	size = 1,
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[1.55762380E+00, 2.91988706E-02, -1.70401738E-05, 6.54777652E-10, 2.18321541E-12, -5.55499597E+04, -7.97394023E+00], Tmin=(298.0, 'K'), Tmax=(1000.0, 'K')), 
+            NASAPolynomial(coeffs=[1.65192420E+01, -1.20256529E-02, 2.15810682E-05, -1.16176807E-08, 2.09733722E-12, -5.96877732E+04, -8.52989455E+01], Tmin=(1000.0, 'K'), Tmax=(2000.0, 'K')), 
+        ],
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
+    ),
+    longDesc = u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py).
+            Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
+            using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
+            following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
+            kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
+            fmax=2.5e-2. DFT binding energy: -2.435 eV.
 """,
     metal = "Pt",
     facet = "111",

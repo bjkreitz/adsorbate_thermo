@@ -3,7 +3,7 @@ import os
 
 def parse_input_file(inputfile):
 
-    rel_path = "bee/" + str(inputfile) + "-bi-ensemble.out"
+    rel_path = "bee/" + str(inputfile) + "-ensemble.out"
     
     input_file = open(rel_path,'r')
     lines = input_file.readlines()
@@ -58,7 +58,7 @@ def parse_gas_input_file(inputfile):
     bee_list = bee_list.strip().replace(" ","")
     return bee_list  
 
-species='chch2ch'
+species='ch3oco'
 
 adsorbate=parse_input_file(species)
 gas=parse_gas_input_file(species)
